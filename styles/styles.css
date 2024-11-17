@@ -1,0 +1,1099 @@
+/* #region Normalize CSS*/
+    /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+/* #endregion */
+
+:root{
+    --black: #000000;
+    --white: #FFFFFF;
+    --sand: #C6A989;
+    --ocean: #12769B;
+    --ugly-grey: #EEEEEE;
+    --awful-grey: #B5B5B5;
+    --font: 'Inter', sans-serif;
+}
+
+
+/* Import Animations */
+
+/* Drop shadow doux */
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+
+/* Effet bordure bleu */
+@keyframes shadow-pop-bl {
+  0% {
+    box-shadow: 0 0 #12769B, 0 0 #12769B, 0 0 #12769B, 0 0 #12769B, 0 0 #12769B, 0 0 #12769B, 0 0 #12769B, 0 0 #12769B;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: -1px 1px #12769B, -2px 2px #12769B, -3px 3px #12769B, -4px 4px #12769B, -5px 5px #12769B, -6px 6px #12769B, -7px 7px #12769B, -8px 8px #12769B;
+    transform: translateX(8px) translateY(-8px);
+  }
+}
+
+/* #region Nav Bar  */
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 70px;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --black-color: #FFF;
+  --black-color-light: #12769B;
+  --black-color-lighten: #12769B;
+  --white-color: #000;
+  --body-color: hsl(220, 100%, 97%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: 'Inter', sans-serif;
+  --normal-font-size: 20px;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 400;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1024px) {
+  :root {
+    --normal-font-size: 20px;
+  }
+}
+
+/*=============== BASE ===============*/
+
+ul {
+  list-style: none;
+  /* Color highlighting when pressed on mobile devices */
+  /*-webkit-tap-highlight-color: transparent;*/
+}
+
+
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+/*=============== HEADER ===============*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--black-color);
+  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  z-index: var(--z-fixed);
+}
+
+/*=============== NAV ===============*/
+.nav {
+  height: var(--header-height);
+}
+
+.nav__logo, 
+.nav__burger, 
+.nav__close {
+  color: var(--white-color);
+}
+
+.nav__data {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  font-weight: var(--font-semi-bold);
+  /* Color highlighting when pressed on mobile devices */
+  /*-webkit-tap-highlight-color: transparent;*/
+}
+
+.nav__logo i {
+  font-weight: initial;
+  font-size: 1.25rem;
+}
+
+.nav__toggle {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.nav__burger, 
+.nav__close {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  inset: 0;
+  margin: auto;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: opacity .1s, transform .4s;
+}
+
+.nav__close {
+  opacity: 0;
+}
+
+/* Navigation for mobile devices */
+@media screen and (max-width: 1118px) {
+  .nav__menu {
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    overflow: auto;
+    pointer-events: none;
+    opacity: 0;
+    transition: top .4s, opacity .3s;
+  }
+  .nav__menu::-webkit-scrollbar {
+    width: 0;
+  }
+  .nav__list {
+    background-color: var(--black-color);
+    padding-top: 1rem;
+  }
+}
+
+.nav__link {
+  color: var(--white-color);
+  background-color: var(--black-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color .3s;
+}
+
+.nav__link:hover {
+  background-color: var(--black-color-light);
+}
+
+/* Show menu */
+.show-menu {
+  opacity: 1;
+  top: 4.2rem;
+  pointer-events: initial;
+}
+
+/* Show icon */
+.show-icon .nav__burger {
+  opacity: 0;
+  transform: rotate(90deg);
+}
+.show-icon .nav__close {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .nav__link {
+    padding-inline: 1rem;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1118px) {
+  .container {
+    margin-inline: auto;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  .nav__list {
+    height: 100%;
+    display: flex;
+    column-gap: 3rem;
+  }
+  .nav__link {
+    height: 100%;
+    padding: 0;
+    justify-content: initial;
+    column-gap: .25rem;
+  }
+  .nav__link:hover {
+    background-color: transparent;
+  }
+
+}
+
+/* #endregion */
+
+*{
+    margin: 0;
+    font-family: var(--font);
+    color: var(--black);
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--white);
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.back-to-top{
+  position: fixed;
+  top: 80vh;
+  right: 0;
+  z-index: 5;
+  padding: 24px;
+  background-color: var(--ocean);
+  border-radius: 24px 0 0 24px;
+}
+
+/* ============== Nav Bar ================*/
+
+
+header{
+  position: fixed;
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.nav__link{
+  font-size: 20px;
+}
+
+
+/* =========== Section hero ====================*/
+
+.hero{
+    height: 90vh;
+    background-image: url(../image/papier-background.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+}
+
+.logo{
+    width: 300px;
+}
+
+.link-to-reserver{
+    background-color: var(--sand);
+    color: var(--white);
+    padding: 16px 24px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.link-to-reserver:hover{
+  background-color: #ab8865fe;
+}
+
+/* =============== Présentation concept ==================*/
+
+
+.section-concept{
+    background-image: url(../image/fond-texture-bleu.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100vw 30vh;
+}
+
+.concept-frame{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 120px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 90px 120px;
+}
+
+.concept-frame div{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.concept-frame img{
+    height: 650px;
+    margin-bottom: -120px;
+}
+
+.concept-frame img:hover{
+  animation: jello-horizontal 0.9s infinite both;
+}
+
+/* =============== Section Restaurant ========*/ 
+
+.section-restaurant{
+    background-image: url(../image/blue-brush.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.restaurant-frame{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 120px;
+    flex-wrap: wrap;
+}
+
+.restaurant-frame div{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* =========== Photo Frame ==============*/ 
+
+/* .section-photo{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.photo-frame{
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+} */
+
+.section-photo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: inherit;
+  grid-template-rows: 1fr 1fr;
+  
+  
+}
+
+.section-photo img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.section-photo img:hover:not(#image-best-animation-ever){
+  animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+#image-best-animation-ever:hover{
+  animation: rotate-scale-up-diag-2 0.7s linear both;
+}
+
+.section-photo div{
+  max-height: 390px;
+}
+
+/*=============  Section Carte =============*/
+
+.section-carte{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 1440px;
+    margin: auto;
+    padding: 90px 120px;
+}
+
+.section-carte h2{
+    font-weight: 600;
+    margin-left: 232px;
+    margin-bottom: 32px;
+}
+
+.section-carte p{
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 500px;
+}
+
+.carte-frame{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carte-frame div{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.menu-galettes, .menu-crepes{
+    max-width: 650px;
+}
+
+.crepes-simple{
+    display: flex;
+    flex-direction: row!important;
+    flex-wrap: wrap;
+    gap: 8px!important;
+}
+
+/* ============= Section Réservation ========================*/ 
+
+.section-contact-reservation{
+
+    background-image: url(../image/brush-bleu-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.contact-reservation-frame{
+    max-width: 1440px;
+    margin: auto;
+    padding: 90px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+
+.section-contact-reservation h3{
+    margin-bottom: 8px;
+}
+
+.sub-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.contact-frame{
+    padding-left: 50px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.contact-frame div{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* hr{
+    margin: 12px 0px;
+    color: var(--sand);
+} */
+
+.separator{
+  border-radius: 2px;
+  height: 1.5px;
+  align-self: stretch;
+  background-color: var(--sand);
+}
+
+/* ============ Réservation ==============*/
+
+.sub-reservation{
+    border: solid 2px var(--awful-grey);
+    border-radius: 8px;
+    padding: 16px 32px;
+    height: fit-content;
+}
+
+.sub-reservation h2{
+  margin-bottom: 24px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input{
+  border: solid 2px var(--sand);
+  height: 42px;
+  width: 232px;
+  border-radius: 4px;
+  background-color: var(--ugly-grey);
+}
+
+.guest, .date, .mail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.button-hour{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+
+}
+.reservation-hour{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button-hour button{
+  border-radius: 4px;
+  color: var(--white);
+  background-color: var(--sand);
+  border: none;
+  padding: 12px 16px;
+}
+
+.button-hour button:hover {
+	animation: shadow-drop-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+.button-hour button:focus{
+  background-color: var(--ocean);
+}
+
+
+.button-submit{
+  margin: 8px 0;
+  padding: 12px 16px;
+  color: var(--white);
+  background-color: var(--sand);
+  border: none;
+  border-radius: 4px;
+
+}
+
+/* ============ Section Footer ================= */
+
+footer{
+  background-color: var(--sand);
+  padding: 34px 120px;
+}
+
+footer p{
+  color: var(--white);
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px){
+
+  .back-to-top{
+    display: none;
+  }
+  
+
+  /* Section Hero */
+  .link-to-reserver{
+    display: none;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  /* Section Concepte */
+  .concept-frame{
+    padding: 40px;
+    margin: 0;
+    gap: 42px;
+    padding-bottom: 280px;
+    margin-bottom: 42px;
+  }
+
+  .section-concept{
+    background-size: 100vw 13vh;
+  }
+
+  .concept-frame img{
+    max-height: 450px;
+
+  }
+
+  /* Section Restaurant */
+  
+  .section-restaurant{
+    background-image: none;
+  }
+
+  .restaurant-frame{
+    padding: 0px;
+    gap: 42px;
+  }
+
+  .restaurant-frame div{
+    padding: 0 40px;
+  }
+
+  .restaurant-frame img{
+    overflow: hidden;
+  }
+
+  /* Section Photo */
+
+  .section-photo{
+    display: none;
+  }
+
+  .guest, .date, .mail{
+    flex-direction: column;
+  }
+
+  /* Section Carte */ 
+
+  .section-carte{
+    padding: 52px 32px;
+  }
+
+  .section-carte h2{
+    margin: 0;
+  }
+
+  .contact-reservation-frame{
+    padding: 24px 32px;
+  }
+
+  /* Section Contact */
+
+  .contact-frame{
+    padding: 0;
+  }
+
+  /* Formulaire Réservation */
+
+  .sub-reservation{
+    padding: 16px 24px;
+  }
+  .button-hour{
+    flex-direction: column;
+  }
+  
+  .section-contact-reservation{
+    background-image: none;
+  }
+
+  /* Footer */
+
+  footer{
+    padding: 24px 34px;
+  }
+}
+
